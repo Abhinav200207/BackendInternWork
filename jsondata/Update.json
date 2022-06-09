@@ -1,0 +1,13 @@
+{
+    "reportDetails": {
+        "userId": "user5",
+        "marketID": "kotla123",
+        "marketName": "kotla",
+        "cmdtyID": "item123",
+        "cmdtyName": "Spanich",
+        "marketType": "Mandi",
+        "priceUnit": "Pack",
+        "convFctr": "50",
+        "price": 700
+    }
+}

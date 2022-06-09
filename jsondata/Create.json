@@ -1,0 +1,12 @@
+{
+    "cmdtyName": "Item1",
+    "cmdtyID": "item123",
+    "marketID": "kotla123",
+    "marketName": "kotla",
+    "userId": [
+        "user7"
+    ],
+    "timestamp": "2239874910",
+    "priceUnit": "kg",
+    "price": 15
+}
