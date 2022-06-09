@@ -25,9 +25,9 @@ For Testing purpose I have provided JSON data,
 ```sh
    localhost:3000/create
 ```
-to create an item data, in body enter data provided in jsondata/Create.json
+to create an item data, in body enter data provided in jsondata/Create.json(Select POST)
 
-- Then to get data of specific id
+- Then to get data of specific id(Select GET)
 - Type, 
 ```sh
    localhost:3000/reports?reportID=62a0fd011896c54345a8742a
@@ -38,4 +38,4 @@ to create an item data, in body enter data provided in jsondata/Create.json
 ```sh
    localhost:3000/reports
 ```
-to update an item data, in body enter data provided in jsondata/Update.json
+to update an item data, in body enter data provided in jsondata/Update.json(Select POST)
