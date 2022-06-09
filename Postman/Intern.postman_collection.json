@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "3911b5d6-0cfc-44f6-a03d-b619b0c9bf60",
+		"name": "Intern",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cmdtyName\": \"Spanich\",\r\n    \"cmdtyID\": \"span123\",\r\n    \"marketID\": \"kotla123\",\r\n    \"marketName\": \"kotla\",\r\n    \"userId\": [\"user8\"],\r\n    \"timestamp\": \"2239874910\",\r\n    \"priceUnit\": \"kg\",\r\n    \"price\": 15\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/create",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product By ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/reports?reportID=62a0fd011896c54345a8742a",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reports"
+					],
+					"query": [
+						{
+							"key": "reportID",
+							"value": "62a0fd011896c54345a8742a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reportDetails\": {\r\n        \"userId\": \"user5\",\r\n        \"marketID\": \"kotla123\",\r\n        \"marketName\": \"kotla\",\r\n        \"cmdtyID\": \"span123\",\r\n        \"cmdtyName\": \"Spanich\",\r\n        \"marketType\": \"Mandi\",\r\n        \"priceUnit\":\"Pack\",\r\n        \"convFctr\": \"50\",\r\n        \"price\": 700\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/reports",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reports"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
