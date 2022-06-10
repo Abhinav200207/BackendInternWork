@@ -3,7 +3,7 @@
     "cmdtyID": "item123",
     "marketID": "kotla123",
     "marketName": "kotla",
-    "userId": [
+    "users": [
         "user7"
     ],
     "timestamp": "2239874910",
